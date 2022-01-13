@@ -40,7 +40,6 @@ export default function Skills() {
                     <div className='skills-container'>
                         <div className='rate-card'><Skill skill="Ubuntu" rate={5} icon={<Ubuntu/>} /></div>
                         <div className='rate-card'><Skill skill="CentOS" rate={4} icon={<Centos />} /></div>
-                        <div className='rate-card'><Skill skill="CentOS" rate={4} icon={<Jenkins />} /></div>
                     </div>
                 </div>
                 <div className='skills-section'>

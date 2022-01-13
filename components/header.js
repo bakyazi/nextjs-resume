@@ -24,13 +24,13 @@ export default function Header() {
             Socials
           </div>
         </Link>
-        <Link href="/redirect/blog">
-          <div className="header-item">
+        <div className="header-item">
+          <a href="https://blog.imberkay.com/" target="_blank" style={{ all: 'unset' }}>
             Blog
-          </div>
-        </Link>
+          </a>
+        </div>
       </nav>
-      <hr/>
+      <hr />
     </header>
   )
 }

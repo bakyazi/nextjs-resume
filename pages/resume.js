@@ -27,7 +27,7 @@ export default function Resume() {
   return (
     <>
       <div className="site-container flex justify-end items-center space-x-4">
-        <a href="/cv.pdf">
+        <a href="/cv.pdf" target="_blank">
           <div className='flex justify-end items-center text-cyan-700 hover:bg-cyan-700 hover:bg-opacity-60 p-1.5 rounded-md hover:text-white'
             onMouseEnter={showDownloadText}
             onMouseLeave={hideDownloadText}

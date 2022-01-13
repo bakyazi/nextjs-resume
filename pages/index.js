@@ -18,9 +18,17 @@ export default function HomePage() {
           In addition to Java, I am using Python, <b className="text-cyan-700 text-xl">Golang</b>, <b className="text-cyan-700 text-xl">React</b>, <b className="text-cyan-700 text-xl">Vue.js</b> in my profesional career and my daily life.
           I adore Python for small practical projects, and web crawling. React is usually my first choice for frontend jobs. I am currently learning Golang and I am very passionate about it.
         </p>
+
       </div>
       <div className="site-3xl-container mt-20">
-        <img src="/me.jpg" />
+        <img src="/me.jpg" alt="sorry i can't find nice pic for here" />
+      </div>
+      <div className="site-container text-lg">
+        <p className='pb-2'>
+          <i>
+            You can access the source code of this resume website by clicking <a href="https://github.com/bakyazi/nextjs-resume" target="_blank" className="text-cyan-700 text-xl">here</a>.
+          </i>
+        </p>
       </div>
     </>
   )

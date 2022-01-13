@@ -6,27 +6,27 @@ export default function Header() {
       <nav className="header-nav">
         <Link href="/">
           <div className="header-item">
-            <span >About Me</span>
+            ABOUT
           </div>
         </Link>
         <Link href="/skills">
           <div className="header-item">
-            <span >Skills</span>
+            SKILLS
           </div>
         </Link>
         <Link href="/resume">
           <div className="header-item">
-            Resume
+            RESUME
           </div>
         </Link>
         <Link href="/socials">
           <div className="header-item">
-            Socials
+            CONTACT
           </div>
         </Link>
         <div className="header-item">
           <a href="https://bakyazi.hashnode.dev/" target="_blank" style={{ all: 'unset' }}>
-            Blog
+            BLOG
           </a>
         </div>
       </nav>

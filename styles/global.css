@@ -3,7 +3,7 @@
 @tailwind utilities;
 @layer components {
     .site-container {
-        @apply max-w-2xl mx-auto px-6
+        @apply max-w-2xl mx-auto px-6 font-mono
     }
     .site-3xl-container {
         @apply max-w-3xl mx-auto
@@ -18,7 +18,7 @@
     .header-item {
         @apply 
             hover:text-cyan-700  hover:bg-cyan-700 hover:bg-opacity-30 
-            grow rounded-xl flex flex-col justify-center 
+            grow rounded-xl flex flex-col justify-center font-mono
     }
 
     .item-location {

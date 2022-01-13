@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
     return (
         <div className="antialiased text-gray-700">
             <Head>
-                <title>Berkay Akyazi</title>
+                <title>\home\berkay</title>
             </Head>
             <Header/>
             <main className="pt-24 mt-6 mb-20">

@@ -19,10 +19,10 @@ export default function Socials() {
       {showModal && <InfoModal onClose={() => { showModalSet(false) }}></InfoModal>}
       <div className="site-container social-container">
         <div className='social-icons'>
-         <Link href="/twitter"><div className="social-icon" ><FontAwesomeIcon size="2x" icon={faTwitter} /></div></Link>
-         <Link href="/github"><div className="social-icon" ><FontAwesomeIcon size="2x" icon={faGithub} /></div></Link>
-         <Link href="/linkedin"><div className="social-icon" ><FontAwesomeIcon size="2x" icon={faLinkedin} /></div></Link>
-         <Link href="/instagram"><div className="social-icon" ><FontAwesomeIcon size="2x" icon={faInstagram} /></div></Link>
+         <Link href="/redirect/twitter"><div className="social-icon" ><FontAwesomeIcon size="2x" icon={faTwitter} /></div></Link>
+         <Link href="/redirect/github"><div className="social-icon" ><FontAwesomeIcon size="2x" icon={faGithub} /></div></Link>
+         <Link href="/redirect/linkedin"><div className="social-icon" ><FontAwesomeIcon size="2x" icon={faLinkedin} /></div></Link>
+         <Link href="/redirect/instagram"><div className="social-icon" ><FontAwesomeIcon size="2x" icon={faInstagram} /></div></Link>
         </div>
         <div className='contact-form'>
           <form>

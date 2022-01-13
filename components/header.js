@@ -24,7 +24,7 @@ export default function Header() {
             Socials
           </div>
         </Link>
-        <Link href="/blog">
+        <Link href="/redirect/blog">
           <div className="header-item">
             Blog
           </div>

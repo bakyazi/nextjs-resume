@@ -1,0 +1,55 @@
+{
+    "workExperience": [
+        {
+            "startDate": "Oct 5, 2020",
+            "endDate": "Present",
+            "title": "Software Engineer",
+            "location": "ARGELA Technologies",
+            "description": "Working on multiple projects as a team member. Developing backend in Java (Spring-Boot) and network and telecommunication applications in Java and Python."
+        },
+        {
+            "startDate": "Dec 2, 2019",
+            "endDate": "Oct 5, 2020",
+            "title": "Software Engineer",
+            "location": "STM Defence",
+            "description": "I was working on multiple projects as a team member. I mostly developed frontend applications in ReactJS and VueJS. In addition to these, I was designin AWS DynomoDB structure, API Gateway, and developing AWS Lambda functions for API."
+        },
+        {
+            "startDate": "Jul 2, 2018",
+            "endDate": "Dec 2, 2019",
+            "title": "Software Engineer",
+            "location": "ARGELA Technologies",
+            "description": "Working on multiple projects as a team member. Developing backend and network/telecominication applications in Java (Spring-Boot)"
+        },
+        {
+            "startDate": "Jun 5, 2017",
+            "endDate": "Sep 29, 2017",
+            "title": "Intern Software Engineer",
+            "location": "BOTT",
+            "description": "Working as an intern, I developed desktop client application to communicate with web services in JavaFX."
+        },
+        {
+            "startDate": "Jul 18, 2016",
+            "endDate": "Sep 2, 2016 ",
+            "title": "Intern Software Engineer",
+            "location": "TAI",
+            "description": "Working as an intern, I developed a C++/OpenCV software to recognizing aircrafts and calculate distance."
+        }
+    ],
+    "education": [
+        {
+            "startDate": "Oct 7, 2013",
+            "endDate": "Jun 16, 2018",
+            "title": "Department of Computer Engineering",
+            "location": "Middle East Technical University",
+            "description": "Programming concepts, Data Structures, Algorithms and etc. I love my University because it taught me a lot. METU Rocks!!"
+        },
+        {
+            "startDate": "2009",
+            "endDate": "2013",
+            "title": "Science",
+            "location": "Ümitköy Anatolian High School",
+            "description": "There is nothing to say so much. It was an ordinary school but I have good memories there."
+        }
+    ]
+}

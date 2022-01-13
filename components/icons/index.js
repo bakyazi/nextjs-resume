@@ -11,6 +11,8 @@ import TravisLogo from "./travis";
 import JiraLogo from "./jira";
 import GithubLogo from "./github";
 import BitbucketLogo from "./bitbucket";
+import JavaLogo from "./java";
+
 
 export const Gopher = GopherLogo
 export const Python = PythonLogo
@@ -25,3 +27,4 @@ export const Travis = TravisLogo
 export const Jira = JiraLogo
 export const Github = GithubLogo
 export const Bitbucket = BitbucketLogo
+export const Java = JavaLogo

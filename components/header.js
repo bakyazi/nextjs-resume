@@ -25,7 +25,7 @@ export default function Header() {
           </div>
         </Link>
         <div className="header-item">
-          <a href="https://bakyazi.hashnode.dev/" target="_blank" style={{ all: 'unset' }}>
+          <a href="https://blog.imberkay.com" target="_blank" style={{ all: 'unset' }}>
             BLOG
           </a>
         </div>

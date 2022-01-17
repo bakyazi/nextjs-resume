@@ -32,7 +32,7 @@ export default function Resume() {
             onMouseEnter={showDownloadText}
             onMouseLeave={hideDownloadText}
           >
-            <label style={downloadStyle}>Download CV</label>
+            <label className='cursor-pointer' style={downloadStyle}>Download CV</label>
             <FontAwesomeIcon size="2x" icon={faDownload} />
           </div>
         </a>

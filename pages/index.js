@@ -19,7 +19,7 @@ export default function HomePage() {
         <img src="/me.jpg" alt="sorry i can't find nice pic for here" />
       </div>
       <div className="site-container text-lg">
-        <p className='pb-2'>
+        <p className='py-6'>
           <i>
             You can access the source code of this resume website by clicking <a href="https://github.com/bakyazi/nextjs-resume" target="_blank" className="text-cyan-700 text-xl">here</a>.
           </i>

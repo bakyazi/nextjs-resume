@@ -69,6 +69,11 @@
         @apply 
             bg-cyan-700 text-white text-lg rounded-lg px-4 py-2 inline-block
     }
+
+    .button-icon {
+        @apply 
+            mr-2
+    }
 /* 
     .skills-container {
         @apply flex flex-wrap justify-between

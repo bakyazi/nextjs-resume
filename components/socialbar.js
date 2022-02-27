@@ -12,7 +12,7 @@ export default function socialbar() {
         </a>
       </div>
       <div className="social-icon">
-        <a href="https://www.linkedin.com/in/berkay-akyaz%C4%B1-a8b56310a/" target="_blank" style={{ all: 'unset' }}>
+        <a href="https://www.linkedin.com/in/berkayakyazi/" target="_blank" style={{ all: 'unset' }}>
           <FontAwesomeIcon size="2x" icon={faLinkedin} />
         </a>
       </div>

@@ -1,8 +1,15 @@
 {
     "workExperience": [
         {
-            "startDate": "Oct 5, 2020",
+            "startDate": "May 16, 2022",
             "endDate": "Present",
+            "title": "Software Engineer",
+            "location": "Picus Security",
+            "description": "Working on modules integrating with SIEM/EDR tools. Developing backend by Go."
+        },
+        {
+            "startDate": "Oct 5, 2020",
+            "endDate": "May 15, 2002",
             "title": "Software Engineer",
             "location": "ARGELA Technologies",
             "description": "Working on multiple projects as a team member. Developing backend in Java (Spring-Boot) and network and telecommunication applications in Java and Python."

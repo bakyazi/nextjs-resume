@@ -21,18 +21,18 @@ export default function Skills() {
                 <div className='skills-section'>
                     <label className='text-left text-cyan-700'>Programming Languages</label>
                     <div className='skills-container'>
-                        <div className='rate-card'><Skill skill="Java" rate={4.5} icon={<Java />} /></div>
-                        <div className='rate-card'><Skill skill="Python" rate={4.5} icon={<Python />} /></div>
-                        <div className='rate-card'><Skill skill="Golang" rate={3.5} icon={<Gopher />} /></div>
-                        <div className='rate-card'><Skill skill="JavaScript" rate={4} icon={<JavaScript />} /></div>
+                        <div className='rate-card'><Skill skill="Golang" rate={4.5} icon={<Gopher />} /></div>
+                        <div className='rate-card'><Skill skill="Java" rate={4} icon={<Java />} /></div>
+                        <div className='rate-card'><Skill skill="Python" rate={3.5} icon={<Python />} /></div>
+                        <div className='rate-card'><Skill skill="JavaScript" rate={3.5} icon={<JavaScript />} /></div>
                     </div>
                 </div>
                 <div className='skills-section'>
                     <label className='text-left text-cyan-700'>Frameworks</label>
                     <div className='skills-container'>
-                        <div className='rate-card'><Skill skill="Spring" rate={4} icon={<Spring/>} /></div>
-                        <div className='rate-card'><Skill skill="React" rate={4} icon={<ReactLogo />} /></div>
-                        <div className='rate-card'><Skill skill="Vue" rate={3} icon={<Vue />} /></div>
+                        <div className='rate-card'><Skill skill="Spring" rate={3.5} icon={<Spring/>} /></div>
+                        <div className='rate-card'><Skill skill="React" rate={3} icon={<ReactLogo />} /></div>
+                        <div className='rate-card'><Skill skill="Vue" rate={2.5} icon={<Vue />} /></div>
                     </div>
                 </div>
                 <div className='skills-section'>
@@ -57,7 +57,6 @@ export default function Skills() {
                         <div className='rate-card'><Skill skill="GitHub" rate={5} icon={<Github />} /></div>
                     </div>
                 </div>
-                {/* <div className='rate-card'><Skill skill="JavaScript" rate={4} icon={<FontAwesomeIcon size="4x" icon={faJs} />} /></div> */}
             </div>
         </div>
     )

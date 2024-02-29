@@ -12,9 +12,12 @@ export default function HomePage() {
           I've been learning programming since I was a kid. When I was in elementary school, I started using <b className="text-cyan-700 text-xl">HTML, CSS,</b> and <b className="text-cyan-700 text-xl">JavaScript</b> a little. After I  started studying, I learned about the programming languages ​​<b className="text-cyan-700 text-xl">Python</b> and ​​<b className="text-cyan-700 text-xl">C / C++</b>, and my passion for programming began. After that, I  met  ​​<b className="text-cyan-700 text-xl">Java</b> in a summer internship. Since then, I've been writing Java in my professional career.
         </p>
         <p className='pb-2'>
-          Besides Java, I use Python, <b className="text-cyan-700 text-xl">Golang, React</b> and <b className="text-cyan-700 text-xl">Vue.js</b> in my professional career and everyday life. I love Python for small hands-on projects and web crawls. React is usually my first choice for front-end work. I am currently studying Golang and am very passionate about it.
+          In recent times, I prefer <b className="text-cyan-700 text-xl">Golang</b> for software development. I am fan of its ability to facilitate rapid development, in addition to being both simple and powerful.
         </p>
-      </div>
+        <p className='pb-2'>
+          Besides Golang and Java, I use <b className="text-cyan-700 text-xl">Python, React</b> and <b className="text-cyan-700 text-xl">Vue.js</b> in my professional career and everyday life. I love Python for small hands-on projects and web crawls. React is usually my first choice for front-end work. I am currently looking for go + templ + htmx tech stack and I am very passionate about it.
+        </p>
+      </div >
       <div className="site-3xl-container mt-20">
         <img src="/me.jpg" alt="sorry i can't find nice pic for here" />
       </div>

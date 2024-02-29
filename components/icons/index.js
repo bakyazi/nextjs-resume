@@ -12,6 +12,7 @@ import JiraLogo from "./jira";
 import GithubLogo from "./github";
 import BitbucketLogo from "./bitbucket";
 import JavaLogo from "./java";
+import MacOsLogo from "./macos";
 
 
 export const Gopher = GopherLogo
@@ -28,3 +29,4 @@ export const Jira = JiraLogo
 export const Github = GithubLogo
 export const Bitbucket = BitbucketLogo
 export const Java = JavaLogo
+export const MacOs = MacOsLogo

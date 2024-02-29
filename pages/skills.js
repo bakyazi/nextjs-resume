@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import ReactStars from "react-rating-stars-component";
 import { faJs, faJava, faPython, faReact, faVuejs, faGolang } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Gopher, Python, JavaScript, Spring, ReactLogo, Vue, Ubuntu, Centos, Jenkins, Travis, Jira, Bitbucket, Github, Java } from '../components/icons';
+import { Gopher, Python, JavaScript, Spring, ReactLogo, Vue, Ubuntu, Centos, Jenkins, Travis, Jira, Bitbucket, Github, Java, MacOs } from '../components/icons';
 export function Skill({ icon, skill, rate }) {
     return (
         <>
@@ -13,48 +13,98 @@ export function Skill({ icon, skill, rate }) {
     )
 }
 
+const iconMap = {
+    golang: <Gopher />,
+    java: <Java />,
+    python: <Python />,
+    javascript: <JavaScript />,
+    spring: <Spring />,
+    react: <ReactLogo />,
+    vue: <Vue />,
+    ubuntu: <Ubuntu />,
+    centos: <Centos />,
+    jenkins: <Jenkins />,
+    travisci: <Travis />,
+    jira: <Jira />,
+    bitbucket: <Bitbucket />,
+    github: <Github />,
+    macos: <MacOs />
+}
+
 
 export default function Skills() {
+
+    const [items, setItems] = useState(undefined)
+
+    useEffect(async () => {
+        const data = await fetch('/resume.json')
+        let js = await data.json()
+        setItems(js)
+    }, [])
+
+
     return (
         <div className='site-container'>
             <div className='skills-sections '>
                 <div className='skills-section'>
                     <label className='text-left text-cyan-700'>Programming Languages</label>
                     <div className='skills-container'>
-                        <div className='rate-card'><Skill skill="Golang" rate={4.5} icon={<Gopher />} /></div>
-                        <div className='rate-card'><Skill skill="Java" rate={4} icon={<Java />} /></div>
-                        <div className='rate-card'><Skill skill="Python" rate={3.5} icon={<Python />} /></div>
-                        <div className='rate-card'><Skill skill="JavaScript" rate={3.5} icon={<JavaScript />} /></div>
+                        {
+                            items && items.skills.programming_languages
+                                .map(
+                                    pl =>
+                                        <div className='rate-card'><Skill skill={pl.name} rate={pl.rank} icon={iconMap[pl.key]} /></div>
+                                )
+                        }
                     </div>
                 </div>
                 <div className='skills-section'>
                     <label className='text-left text-cyan-700'>Frameworks</label>
                     <div className='skills-container'>
-                        <div className='rate-card'><Skill skill="Spring" rate={3.5} icon={<Spring/>} /></div>
-                        <div className='rate-card'><Skill skill="React" rate={3} icon={<ReactLogo />} /></div>
-                        <div className='rate-card'><Skill skill="Vue" rate={2.5} icon={<Vue />} /></div>
+                        {
+                            items && items.skills.frameworks
+                                .map(
+                                    pl =>
+                                        <div className='rate-card'><Skill skill={pl.name} rate={pl.rank} icon={iconMap[pl.key]} /></div>
+                                )
+                        }
+
                     </div>
                 </div>
                 <div className='skills-section'>
                     <label className='text-left text-cyan-700'>Operating Systems</label>
                     <div className='skills-container'>
-                        <div className='rate-card'><Skill skill="Ubuntu" rate={4.5} icon={<Ubuntu/>} /></div>
-                        <div className='rate-card'><Skill skill="CentOS" rate={3.5} icon={<Centos />} /></div>
+                        {
+                            items && items.skills.operating_systems
+                                .map(
+                                    pl =>
+                                        <div className='rate-card'><Skill skill={pl.name} rate={pl.rank} icon={iconMap[pl.key]} /></div>
+                                )
+                        }
                     </div>
                 </div>
                 <div className='skills-section'>
                     <label className='text-left text-cyan-700'>CI/CD</label>
                     <div className='skills-container'>
-                        <div className='rate-card'><Skill skill="Jenkins" rate={3.5} icon={<Jenkins />} /></div>
-                        <div className='rate-card'><Skill skill="TravisCI" rate={2} icon={<Travis />} /></div>
+                        {
+                            items && items.skills.ci_cd
+                                .map(
+                                    pl =>
+                                        <div className='rate-card'><Skill skill={pl.name} rate={pl.rank} icon={iconMap[pl.key]} /></div>
+                                )
+                        }
                     </div>
                 </div>
                 <div className='skills-section'>
                     <label className='text-left text-cyan-700'>Tools</label>
                     <div className='skills-container'>
-                        <div className='rate-card'><Skill skill="JIRA" rate={5} icon={<Jira />} /></div>
-                        <div className='rate-card'><Skill skill="Bitbucket" rate={5} icon={<Bitbucket />} /></div>
-                        <div className='rate-card'><Skill skill="GitHub" rate={5} icon={<Github />} /></div>
+                        {
+                            items && items.skills.tools
+                                .map(
+                                    pl =>
+                                        <div className='rate-card'><Skill skill={pl.name} rate={pl.rank} icon={iconMap[pl.key]} /></div>
+                                )
+                        }
                     </div>
                 </div>
             </div>

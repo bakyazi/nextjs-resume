@@ -1,8 +1,15 @@
 {
     "workExperience": [
         {
-            "startDate": "May 16, 2022",
+            "startDate": "Mar 01, 2023",
             "endDate": "Present",
+            "title": "Tech Lead",
+            "location": "Picus Security",
+            "description": "I am leading one of the development teams of Picus as a senior backend developer. Making decision on design of Attack Surface Management product. Also developing backend by Golang"
+        },
+        {
+            "startDate": "May 16, 2022",
+            "endDate": "Mar 01, 2023",
             "title": "Software Engineer",
             "location": "Picus Security",
             "description": "Working on modules integrating with SIEM/EDR tools. Developing backend by Go."
@@ -58,5 +65,92 @@
             "location": "Ümitköy Anatolian High School",
             "description": "There is nothing to say so much. It was an ordinary school but I have good memories there."
         }
-    ]
+    ],
+    "skills": {
+        "programming_languages": [
+            {
+                "name": "Golang",
+                "rank": 4.5,
+                "key": "golang"
+            },
+            {
+                "name": "Java",
+                "rank": 4.5,
+                "key": "java"
+            },
+            {
+                "name": "Python",
+                "rank": 4.0,
+                "key": "python"
+            },
+            {
+                "name": "JavaScript",
+                "rank": 3.5,
+                "key": "javascript"
+            }
+        ],
+        "frameworks": [
+            {
+                "name": "Spring",
+                "rank": 3.5,
+                "key": "spring"
+            },
+            {
+                "name": "React",
+                "rank": 3,
+                "key": "react"
+            },
+            {
+                "name": "Vue",
+                "rank": 2,
+                "key": "vue"
+            }
+        ],
+        "operating_systems": [
+            {
+                "name": "Ubuntu",
+                "rank": 4.5,
+                "key": "ubuntu"
+            },
+            {
+                "name": "CentOS",
+                "rank": 4,
+                "key": "centos"
+            },
+            {
+                "name": "MacOS",
+                "rank": 3.5,
+                "key": "macos"
+            }
+        ],
+        "ci_cd": [
+            {
+                "name": "Jenkins",
+                "rank": 3.5,
+                "key": "jenkins"
+            },
+            {
+                "name": "TravisCI",
+                "rank": 2,
+                "key": "travisci"
+            }
+        ],
+        "tools": [
+            {
+                "name": "JIRA",
+                "rank": 5,
+                "key": "jira"
+            },
+            {
+                "name": "Bitbucket",
+                "rank": 5,
+                "key": "bitbucket"
+            },
+            {
+                "name": "GitHub",
+                "rank": 5,
+                "key": "github"
+            }
+        ]
+    }
 }

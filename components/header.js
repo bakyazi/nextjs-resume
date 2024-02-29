@@ -4,26 +4,26 @@ export default function Header() {
   return (
     <header className="header site-container pt-1 pb-1">
       <nav className="header-nav">
-        <Link href="/">
-          <div className="header-item">
+        <div className="header-item">
+          <Link href="/">
             ABOUT
-          </div>
-        </Link>
-        <Link href="/skills">
-          <div className="header-item">
+          </Link>
+        </div>
+        <div className="header-item">
+          <Link href="/skills">
             SKILLS
-          </div>
-        </Link>
-        <Link href="/resume">
-          <div className="header-item">
+          </Link>
+        </div>
+        <div className="header-item">
+          <Link href="/resume">
             RESUME
-          </div>
-        </Link>
-        <Link href="/socials">
-          <div className="header-item">
+          </Link>
+        </div>
+        <div className="header-item">
+          <Link href="/socials">
             CONTACT
-          </div>
-        </Link>
+          </Link>
+        </div>
         <div className="header-item">
           <a href="https://medium.com/@berkay.akyazi" target="_blank" style={{ all: 'unset' }}>
             BLOG
